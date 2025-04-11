@@ -25,6 +25,9 @@
 
   --neumorphic-shadow-dark: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --neumorphic-shadow-light: -5px -5px 10px rgba(255, 255, 255, 0.05);
+
+  --header-height: 5rem;
+  --transition-speed: 0.3s;
 }
 
     html {
