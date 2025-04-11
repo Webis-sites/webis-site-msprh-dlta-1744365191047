@@ -18,6 +18,8 @@
   --border-radius: 0.75rem;
   --card-shadow: 0 8px 32px 0 rgba(88, 140, 126, 0.1);
   --glass-background: rgba(255, 255, 255, 0.7);
+
+  --box-shadow: 5px 5px 15px rgba(0,0,0,0.05),-5px -5px 15px rgba(255,255,255,0.9);
 }
 
     html {
