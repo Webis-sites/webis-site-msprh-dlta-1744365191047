@@ -12,10 +12,13 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import NavigationHeader from '@/components/NavigationHeader';
 import SpecialOffersSection from '@/components/SpecialOffersSection';
+import InstagramFeed from '@/components/InstagramFeed';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <InstagramFeed />
+      
       <SpecialOffersSection />
       
       <NavigationHeader />
