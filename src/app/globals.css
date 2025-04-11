@@ -32,6 +32,8 @@
   --glass-blur: 10px;
 
   --card-shadow-hover: inset 5px 5px 15px rgba(0,0,0,0.1),inset -5px -5px 15px rgba(255,255,255,0.1);
+
+  --glass-opacity: 0.2;
 }
 
     html {
