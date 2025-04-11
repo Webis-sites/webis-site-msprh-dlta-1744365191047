@@ -7,10 +7,13 @@ import BookingSystem from '@/components/BookingSystem';
 import PortfolioGallery from '@/components/PortfolioGallery';
 import AboutSection from '@/components/AboutSection';
 import TestimonialsCarousel from '@/components/TestimonialsCarousel';
+import FAQSection from '@/components/FAQSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <FAQSection />
+      
       <TestimonialsCarousel />
       
       <AboutSection />
