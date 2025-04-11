@@ -14,10 +14,13 @@ import NavigationHeader from '@/components/NavigationHeader';
 import SpecialOffersSection from '@/components/SpecialOffersSection';
 import InstagramFeed from '@/components/InstagramFeed';
 import ExpertiseSection from '@/components/ExpertiseSection';
+import LocationSection from '@/components/LocationSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <LocationSection />
+      
       <ExpertiseSection />
       
       <InstagramFeed />
