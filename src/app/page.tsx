@@ -10,10 +10,13 @@ import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import NavigationHeader from '@/components/NavigationHeader';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <NavigationHeader />
+      
       <Footer />
       
       <ContactSection />
