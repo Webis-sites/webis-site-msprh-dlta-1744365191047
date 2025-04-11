@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-11T10:14:21.521Z",
+  "timestamp": "2025-04-11T10:15:16.514Z",
   "status": {
     "totalComponents": 15,
-    "completedComponents": 12,
+    "completedComponents": 13,
     "failedComponents": 0,
-    "progress": 80
+    "progress": 87
   },
   "components": [
     {
@@ -82,7 +82,7 @@
     {
       "name": "ExpertiseSection",
       "type": "features",
-      "status": "pending",
+      "status": "completed",
       "description": "Highlighted special skills and expertise areas of the barber shop"
     },
     {
